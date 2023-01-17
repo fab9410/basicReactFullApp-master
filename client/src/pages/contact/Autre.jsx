@@ -13,8 +13,8 @@ const AutreForm = () => {
     });
     
     
-    const result = axios.post(`contact/message`, values);
-      console.log(result);
+    // const result = axios.post(`contact/message`, values);
+    //   console.log(result);
 
     const inputs = [
         {
@@ -103,6 +103,7 @@ const AutreForm = () => {
                         onChange={onChange}
                     />
                 ))}
+
                 <div className='images'>
             {selectedImages &&
              selectedImages.map((image, index) => {
