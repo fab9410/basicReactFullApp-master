@@ -1,0 +1,135 @@
+body {
+    background-color: #ccc1c1;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    border-radius: 55px;
+}
+
+.contactForm {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 30px;
+    width: 500px;
+}
+
+.inputFile {
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 30px;
+    width: 500px;
+}
+
+.inputName {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.inputEmail {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.inputSubject {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.inputPhone {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.inputMessage {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.sendDataContactForm {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #c22b2b;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sendDataContactForm:hover {
+    background-color: #fff;
+    color: #c22b2b;
+    border: 1px solid #c22b2b;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+label{
+    font-size: 12px;
+    color: gray;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

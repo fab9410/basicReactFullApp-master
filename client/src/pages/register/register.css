@@ -1,0 +1,13 @@
+.name {
+    display: flex;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 90%;
+}
+
+@media screen and (max-width: 464px) {
+    .name {
+        flex-direction: column;
+    }
+}
